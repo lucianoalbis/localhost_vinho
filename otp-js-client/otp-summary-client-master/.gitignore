@@ -1,21 +1,3 @@
-lib-cov
-*.seed
-*.log
-*.dat
-*.out
-*.pid
-*.gz
-
-.DS_Store
-
-pids
-logs
-results
-
-node_modules
-npm-debug.log
-
-bower_components
-build
-components
-config.js
+# Arquivos e pastas ignorados
+/vendor
+/node_modules

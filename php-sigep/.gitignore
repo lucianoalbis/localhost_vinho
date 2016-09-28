@@ -1,0 +1,5 @@
+# Arquivos e pastas ignorados
+/vendor
+/manual
+php-sigep-master.zip
+composer.phar
