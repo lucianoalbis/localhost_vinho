@@ -1,0 +1,3 @@
+#!/bin/bash
+cd psx/vendor/psx
+find . -name "*.php" -type f -exec php -l '{}' \;

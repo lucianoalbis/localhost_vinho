@@ -1,0 +1,51 @@
+Acesso ao portal de login
+-> http://vinho/zend/skeleton-application/public/user/login
+
+Acesso à API Rest Admin
+-> http://vinho/BrtLabs/zend/skeleton-application/public/apigility/ui#/
+Obs: https://apigility.org/documentation/recipes/apigility-in-an-existing-zf2-application
+
+Acesso Zend Satandard
+-> http://vinho/BrtLabs/zend/skeleton-application/public/
+
+Acesso Album
+-> http://vinho/BrtLabs/zend/skeleton-application/public/album
+
+Tutorial Zend Rest
+-> http://hounddog.github.io/blog/getting-started-with-rest-and-zend-framework-2/
+-> https://github.com/Hounddog/AlbumRest
+
+==========================================================================================================================
+
+Rests
+
+-> [DELETE] Apagar: http://vinho/BrtLabs/zend/skeleton-application/public/album-rest/[id]
+-> [GET] Listar: http://vinho/BrtLabs/zend/skeleton-application/public/album-rest
+-> [POST] Add: http://vinho/BrtLabs/zend/skeleton-application/public/album-rest
+   Parans
+        -> id
+        -> artist
+        -> title
+-> [PUT] Update: http://vinho/BrtLabs/zend/skeleton-application/public/album-rest/[id]
+   Parans
+        -> artist
+        -> title        
+
+Referencia: https://framework.zend.com/manual/2.4/en/user-guide/routing-and-controllers.html
+            https://framework.zend.com/manual/2.4/en/user-guide/forms-and-actions.html
+
+http://vinho/zend/skeleton-application/public
+
+URL	            Page	                        Action
+/album	        Home (list of albums)	        index
+/album/add	    Add new album	                add
+/album/edit/2	Edit album with an id of 2	    edit
+/album/delete/4	Delete album with an id of 4	delete        
+
+==========================================================================================================================
+
+Add auth ZF-User
+-> http://en.leandrosilva.info/tutorial-zf2-doctrine-zfcuser-los-part-3/
+
+Menu
+-> https://framework.zend.com/manual/2.3/en/tutorials/tutorial.navigation.html

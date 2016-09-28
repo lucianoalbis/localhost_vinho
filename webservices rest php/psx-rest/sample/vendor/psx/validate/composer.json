@@ -1,0 +1,32 @@
+{
+  "name": "psx/validate",
+  "description": "Validate data through a filter system",
+  "keywords": ["validation", "filter"],
+  "homepage": "http://phpsx.org",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Christoph Kappestein",
+      "email": "christoph.kappestein@gmail.com",
+      "homepage": "http://christoph.kappestein.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "doctrine/dbal": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "phpunit/dbunit": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PSX\\Validate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PSX\\Validate\\Tests\\": "tests/"
+    }
+  }
+}
